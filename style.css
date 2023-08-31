@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300;1,500&display=swap');
+
+.Ma_carte{
+    margin: 5px;
+    padding: 5px; 
+    box-sizing:center;
+    background-color:whitesmoke;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #7db4eb 0%, #E0C3FC 50%);
+    height: 40wh;
+    width: 30vw;
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    border: solid black 1px;
+}
+.profile-image{
+    background-image: url("./photo.jpg");
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
